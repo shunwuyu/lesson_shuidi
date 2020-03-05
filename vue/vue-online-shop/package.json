@@ -1,0 +1,12 @@
+{
+  "name": "vue-online-shop",
+  "version": "0.1.0",
+  "description": "商城 面试 java node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "shunwuyu <shunwu2001@163.com> (http://github.com/shunwuyu)",
+  "license": "MIT"
+}

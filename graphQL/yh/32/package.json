@@ -1,0 +1,18 @@
+{
+  "name": "32",
+  "version": "0.1.0",
+  "description": "- 实现网站的API     Facebook   - 让前端有自定义查询数据的能力。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "shunwuyu <shunwu2001@163.com> (http://github.com/shunwuyu)",
+  "license": "MIT",
+  "dependencies": {
+    "graphql": "^14.5.8",
+    "koa": "^2.11.0",
+    "koa-graphql": "^0.8.0",
+    "koa-static": "^5.0.0"
+  }
+}

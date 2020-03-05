@@ -1,0 +1,15 @@
+{
+  "name": "didi_api",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "json-server --port=1314 db.json"
+  },
+  "keywords": [],
+  "author": "shunwuyu <shunwu2001@163.com> (http://github.com/shunwuyu)",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}

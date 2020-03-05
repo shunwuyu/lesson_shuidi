@@ -1,0 +1,17 @@
+{
+  "name": "try-redis",
+  "version": "0.1.0",
+  "description": "- Mysql   关系型   Mongodb NOSQL    redis  内存 KV   解决数据库的压力    MYSQL /post I/O    redis  k:v 保存在redis 内存中.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "shunwuyu <shunwu2001@163.com> (http://github.com/shunwuyu)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "redis": "^2.8.0"
+  }
+}
