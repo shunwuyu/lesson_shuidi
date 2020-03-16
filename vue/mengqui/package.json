@@ -1,0 +1,34 @@
+{
+  "name": "@shunwuyu/mengqui",
+  "version": "0.1.1",
+  "description": "设计的第一vue 开发框架",
+  "keywords": [
+    "component",
+    "vue",
+    "vue-component"
+  ],
+  "homepage": "https://github.com/shunwuyu/mengqui",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com:shunwuyu/mengqui.git"
+  },
+  "contributors": [
+    "shunwuyu"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name mengqui --dest lib packages/index.js"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.2.0",
+    "@vue/cli-service": "^4.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "main": "lib/mengqui.umd.min.js"
+}

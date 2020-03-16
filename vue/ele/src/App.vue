@@ -11,6 +11,7 @@
       <span class="head_logo" slot="logo">ele.me</span>
     </head-top> -->
     <!--地址 -->
+    <x-button type="primary">按钮</x-button>
     <head-top head-title="编辑地址" go-back="true">
       <span class="head_logo" slot="logo">ele.me</span>
       <span class="edit" slot="edit">编辑</span>

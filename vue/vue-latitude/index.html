@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jingweidu</title>
+    <script>
+    getlatandlong=()=> {alert('经度：'+this._position.lat,'维度：'+this._position)}
+    getLocation=()=>{
+  if (navigator.geolocation){
+    navigator.geolocation.getCurrentPosition(this.showPosition,this.showError);
+  }else{
+    alert("浏览器不支持地理定位");
+  }
+   //调用coords的latitude和longitude即可获取到用户的纬度和经度。
+ 
+  };
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
