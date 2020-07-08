@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-
 const shopSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -11,6 +10,5 @@ const shopSchema = new mongoose.Schema({
     sparse: true
   }
 })
-
 const Shop = mongoose.model('Shop', shopSchema)
 module.exports = Shop
