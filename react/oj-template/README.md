@@ -8,3 +8,5 @@ React.js 加载、刷新数据、高阶组件
   componentDidMount  axios   MVVM 
   click  -> axios  更新了 
 
+
+- mockjs  提供假数据 

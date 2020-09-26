@@ -3,23 +3,25 @@ package main
 import "fmt" // 打印
 
 func twoSum(nums []int, target int) []int {
-	// go 定义一个hashMap express =>  go 
-	h := make(map[int]int)  // 申请一个hashMap 地址
+	// go 定义一个hashMap express =>  go
+	// Map 是一种无序的键值对的集合
+	h := make(map[int]int) // 申请一个hashMap 地址
 	// h[2] = 0
 	// 遍历 O(n)
 	for i, value := range nums {
+		fmt.Println(i, value)
 		// if wanted, ok := h[value]; ok {
 		// 	fmt.Println(wanted, ok)
 		// } else {
-		// 2  7 做为放进去， 
-		// nums[i]  7  一对 
-		if wanted, ok := h[value]; ok { // for 
+		// 2  7 做为放进去，
+		// nums[i]  7  一对
+		if wanted, ok := h[value]; ok { // for
 			// fmt.Println(wanted, ok);
 			return []int{wanted, i}
 		} else {
 			h[target-value] = i // 当前值想要的对象下标为i
 		}
-		
+
 		// }
 		// fmt.Println(i, value);
 	}
@@ -28,5 +30,5 @@ func twoSum(nums []int, target int) []int {
 }
 
 func main() {
-	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9));
+	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9))
 }
