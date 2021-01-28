@@ -153,9 +153,9 @@ electron-reload@^1.5.0:
   dependencies:
     chokidar "^3.0.2"
 
-electron@^7.1.8:
-  version "7.1.8"
-  resolved "https://registry.npm.taobao.org/electron/download/electron-7.1.8.tgz#7cd50fdf42c55c9de86ab126e983d23fd89d5d99"
+electron@^9.4.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-9.4.0.tgz#c3c607e3598226ddbaaff8babcdffa8bb2210936"
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^12.0.12"
